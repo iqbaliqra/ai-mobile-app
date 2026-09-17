@@ -2,8 +2,8 @@
   "name": "ai-mobile-app",
   "private": true,
   "scripts": {
-    "dev": "turbo dev",
-    "build": "turbo build",
+    "dev": "node init && turbo dev",
+    "build": "node init && turbo build",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck"
   },
